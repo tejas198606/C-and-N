@@ -13,7 +13,7 @@ STATIC_FOLDER = "static"                                 ## Folder name
 cnn_model = tf.keras.models.load_model(STATIC_FOLDER + "/models/" + "model1.h5")   ## MODEL NAME 
 
 
-IMAGE_SIZE = 1282                                            ## Image Size can be changed 
+IMAGE_SIZE = 128                                           ## Image Size can be changed 
 
 # Preprocess an image
 def preprocess_image(image):
